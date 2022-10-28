@@ -1,0 +1,60 @@
+.texto {
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  /* display: flex; */
+  
+}
+.tittle {
+  display: flex;
+  justify-content: center;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px;
+  justify-content: center;
+  
+  
+}
+.divisions {
+  width: 550px;
+  height: 250px;
+  background: #05893A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.groups {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.groups button {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #05893A;
+  opacity: 0.6;
+  transition: 0.3s;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+}
+.groups button:hover {
+  opacity: 1;
+  background: #047732;
+}
+li {
+  list-style: none;
+}
